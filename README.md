@@ -1,4 +1,7 @@
 > A batteries-included Django starter project. For a production-ready version see the book [Django for Professionals](https://djangoforprofessionals.com).
+## first pull
+https://github.com/MoradAlkhatib/djangoX/pull/1
+
 
 ## 🚀 Features
 
