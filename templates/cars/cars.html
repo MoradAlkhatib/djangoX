@@ -1,0 +1,12 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<h1 style="text-align: center; color: cadetblue;">Cars</h1>
+<ul>
+{% for car in object_list %}
+   <li><a href="{% url 'detail-car' car.pk %}">{{car}}</a> </li> 
+{% endfor %}
+
+</ul>
+<button style="background-color: rosybrown;"><a href="{% url 'create-car' %}">Create A New Car</a></button> 
+{% endblock content %}

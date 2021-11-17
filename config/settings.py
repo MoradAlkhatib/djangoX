@@ -15,6 +15,7 @@ ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = [
+    'morad',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
